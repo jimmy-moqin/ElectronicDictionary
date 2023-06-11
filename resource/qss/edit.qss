@@ -1,0 +1,48 @@
+#editLabel{
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+    font-weight: normal;
+
+    color: #141414;
+}
+
+
+
+#enEditLine{
+    font-family: "Consolas";
+    font-size: 30px;
+    font-weight: normal;
+
+    color: #141414;
+}
+
+#cnEditLine{
+    font-family: "Microsoft YaHei";
+    font-size: 24px;
+    font-weight: normal;
+    color: #141414;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+#okBtn{
+    background-color: #87E8DE;
+    border-radius: 10px;
+    font-family: "Microsoft YaHei";
+    font-size: 20px;
+    border: 1px solid #006D75;
+}
+
+#cancelBtn{
+    background-color: #87E8DE;
+    border-radius: 10px;
+    font-family: "Microsoft YaHei";
+    font-size: 20px;
+    border: 1px solid #006D75;
+}
+
+#EditWidget{
+    background-color: #E6FFFB;
+    border: 1px solid #13A8A8;
+    border-radius: 15px;
+}

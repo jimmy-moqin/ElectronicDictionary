@@ -1,0 +1,113 @@
+#ElecDictWidget {
+    background-color: #F9F9F9;
+}
+
+#titleLabel {
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+    font-weight: normal;
+
+    color: #141414;
+}
+
+#titleWidget {
+    background-color: #87E8DE;
+}
+
+#minBtn {
+    border: none;
+    background-color: transparent;
+}
+
+#closeBtn {
+    border: none;
+    background-color: transparent;
+}
+
+#searchBtn {
+    border: none;
+    background-color: transparent;
+}
+
+#searchWidget {
+    background-color: #FFFFFF;
+    border: 1px solid #13A8A8;
+    border-radius: 20px;
+}
+
+#searchLineEdit {
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+
+}
+
+#listWidget {
+    background-color: transparent;
+    border: 1px solid #13A8A8;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Consolas";
+    padding-left: 10px;
+    outline: 0px;
+}
+
+#listWidget::item {
+    font-size: 24px;
+    height: 2em;
+    border-bottom: 1px solid #13A8A8;
+}
+
+#listWidget::item:hover {
+    background-color: #E6FFFB;
+    color: #141414;
+}
+
+#listWidget::item:selected {
+    background-color: #5CDBD3;
+    color: #FFFFFF;
+    
+}
+
+/* rollBar */
+.QScrollBar {
+    width: 10px;
+    background-color: transparent;
+    margin: 0px 0px 0px 0px;
+}
+
+.QScrollBar::handle {
+    background: #13A8A8;
+    border-radius: 6px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.QScrollBar::sub-page {
+    background: transparent;
+    border-radius: 4px;
+}
+
+.QScrollBar::add-page {
+    background: transparent;
+    border-radius: 4px;
+}
+
+.QScrollBar::sub-line {
+    border: none;
+}
+
+.QScrollBar::add-line {
+    border: none;
+}
+
+#bottomWidget {
+    background-image: url(:/main/img/bg.png);
+}
+
+#addBtn {
+    border: none;
+    background-color: transparent;
+}
+

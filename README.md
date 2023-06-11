@@ -1,0 +1,2 @@
+# ElectronicDictionary
+A Python ElectronicDictionary
