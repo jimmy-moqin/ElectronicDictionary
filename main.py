@@ -1,10 +1,10 @@
-import os
+# import os
 
-uipath = os.path.dirname(os.path.abspath(__file__)) + '/ui/'
-os.system("pyuic5 \"" + uipath + "ElecDictUI.ui\" --import-from=resource.qrc -o \""+ uipath +"ElecDictUI.py\"")
-os.system("pyuic5 \"" + uipath + "editUI.ui\" --import-from=resource.qrc -o \""+ uipath +"editUI.py\"")
-resousepath = os.path.dirname(os.path.abspath(__file__)) + '/resource/qrc/'
-os.system("pyrcc5 \"" + resousepath + "ElecDict.qrc\" -o \""+ resousepath +"ElecDict_rc.py\"")
+# uipath = os.path.dirname(os.path.abspath(__file__)) + '/ui/'
+# os.system("pyuic5 \"" + uipath + "ElecDictUI.ui\" --import-from=resource.qrc -o \""+ uipath +"ElecDictUI.py\"")
+# os.system("pyuic5 \"" + uipath + "editUI.ui\" --import-from=resource.qrc -o \""+ uipath +"editUI.py\"")
+# resousepath = os.path.dirname(os.path.abspath(__file__)) + '/resource/qrc/'
+# os.system("pyrcc5 \"" + resousepath + "ElecDict.qrc\" -o \""+ resousepath +"ElecDict_rc.py\"")
 from PyQt5.QtWidgets import QApplication
 
 from src.elecdict import ElecDict
